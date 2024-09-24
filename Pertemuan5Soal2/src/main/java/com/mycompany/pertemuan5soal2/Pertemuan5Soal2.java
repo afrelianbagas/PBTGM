@@ -11,14 +11,14 @@ import java.util.Scanner;
 public class Pertemuan5Soal2 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner myInput = new Scanner(System.in);
 
         // Meminta input dari pengguna
         System.out.print("Masukkan nilai alas: ");
-        double alas = input.nextDouble();
+        double alas = myInput.nextDouble();
 
         System.out.print("Masukkan nilai tinggi: ");
-        double tinggi = input.nextDouble();
+        double tinggi = myInput.nextDouble();
 
         // Menghitung luas segitiga
         double luas = (alas * tinggi) / 2;
@@ -26,6 +26,6 @@ public class Pertemuan5Soal2 {
         // Menampilkan hasil
         System.out.println("Luas Segitiga : " + luas);
 
-        input.close();
+        myInput.close();
     }
 }
